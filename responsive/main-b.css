@@ -1,0 +1,31 @@
+/* Já concluido, não alterar */
+
+@media(max-width: 910px){
+
+    .cards{
+         
+        width: 30vw;   
+    }
+
+    .cards .end{
+        margin-bottom: 20px;
+        margin-top: 0;
+
+    }
+}
+
+
+@media(max-width: 663px){
+
+    .cards{
+        
+        margin-top: 0;
+        width: 50vw;
+       
+        
+    }
+
+    #format{
+        margin-bottom: 30px;
+    }
+}

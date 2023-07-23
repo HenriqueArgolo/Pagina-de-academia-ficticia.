@@ -1,0 +1,225 @@
+/* Já concluido, não alterar */
+#main-c {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+   justify-content: center;
+   height: auto;
+}
+
+#mapa {
+    display: flex;
+    border: 0;
+    margin: 0;
+    width: 50vw;
+    border: none;
+}
+#mapa #iframe {
+    width: 50vw;
+    border: none;
+}
+
+#form legend{
+    font-size: clamp(0.8em, 0.8em + 0.5vw, 0.4em);
+    margin-bottom: 20px;
+    color: white;
+
+
+}
+
+#form fieldset{
+    border: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#form {
+    font-size: clamp(1em, 1em + 1vw, 1.5em);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding: 5%;
+    background-image: url(../../images/carrB.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#form strong {
+    margin: 0 5.2rem 0 0.3rem;
+}
+
+
+
+#phonecontact,  #namecontact, #email{
+    width: 80%;
+    margin-bottom: 1.5rem;
+    padding: 1rem 0 0 2rem;
+    border-radius: 0.6rem;
+    border: none;
+    font-size: clamp(0.5em, 0.5em + 0.5vw, 0.75em);
+}
+
+#phonecontact {
+    height: 10rem;
+}
+
+#form strong{
+    margin-bottom: 2rem;
+}
+
+.btcontact {
+    background-color: #FF6340;
+    color:white;
+    border-radius: 0.6rem;
+    width: 7rem;
+    height: 2rem;
+    border: 0;
+    cursor: pointer;
+    align-self: baseline;
+    font-size: clamp(0.5em, 0.5em + 0.5vw, 0.75em);  
+    margin: auto;
+}
+
+.btcontact:hover{
+    cursor: pointer;
+    background-color: #eb3a1298;
+}
+.quem-somos{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: 100vw;
+    background-color: #1F242B;
+    overflow: hidden;
+}
+
+.descricao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 30px;
+    color: white;
+    margin: auto;
+   
+}
+
+.descricao > p {
+    font-size: 2vw;
+}
+.descricao > h2 {
+    font-size: 3vw;
+}
+.img-academia{
+    height: fit-content;
+    width: 100vw;
+}
+@media(max-width: 765px){
+    .descricao > p {
+        font-size: 4vw;
+    }
+    .descricao > h2 {
+        font-size: 6vw;
+
+}
+ }
+.loc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 400px;
+    width: 100vw;
+    overflow: hidden;
+    border-bottom: 1px solid black;
+    background-color: #1F242B;
+    padding-top: 60px;
+}
+
+.loc > h2{
+    margin: auto;
+    color: white;
+}
+.loc > p{
+    margin: auto;
+    color: white;
+    padding-bottom: 60px;
+}
+
+
+iframe { 
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.info-contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 500px;
+    background-color: #1F242B;
+    overflow: hidden;
+}
+
+.div-contact{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+width: 70vw;
+height: 400px;
+background-color: #2a2f36;
+border-radius: 7px;
+box-shadow: 1px 1px 25px 6px ;
+overflow: hidden;
+}
+
+
+.div-contact > a > button{
+    padding: 3px;
+    background-color: rgb(42, 168, 42);
+    margin: 10px;
+    border-radius: 12px;
+    width: 120px;
+    outline: none;
+}
+
+.div-contact > h3{
+    color: azure;
+    margin-top: 8px;
+    padding: 15px;
+}
+
+#text-a > img{
+    width: 100%;
+    overflow: hidden;
+    margin: auto;
+}
+
+#text-a  p{
+    font-size: 30px;
+}
+
+#text-a{
+    background-color:#ffffff;
+    color:#44A1B6;
+}
+
+#text-a, h1{
+font-size: 5vw;
+}
+
+.Whatsapp{
+    width:50px;
+    padding: 0;
+    margin: 0;
+}

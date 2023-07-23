@@ -1,0 +1,54 @@
+@media(max-width: 895px) { /* L móvel */
+    #main-home {
+
+            display:grid;
+            grid-template-areas: 
+            "section"
+            "figure";
+            width: 100%;
+            padding: 0;
+            margin: 0;
+        justify-content: start;        
+        }
+.contato-c{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    background-color: white;
+}  
+
+.contat-content{
+    height: 600px;
+}
+    #text-a, #fhome-img {
+        margin-left: 3.5rem;
+        width: 80vw;
+    }
+    #home-img {
+        width: 40vw;
+        height: 40vw;
+    }
+}
+@media(max-width:650px) { /* Móvel M */
+    #text-a h1 {
+        font-size: clamp(2em, 1em + 1vw, 2.5em);
+        text-align: center;
+    }
+
+    #text-a p {
+        font-size: clamp(0.6em, 0.6em + 1.6vw, 1em);
+    }
+    #main-home {
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+
+    #text-a, #fhome-img {
+        margin-left: 1.7rem;
+        width: 80vw;
+    }
+    #home-img {
+        width: 20rem;
+        height: 15rem;
+    }
+}

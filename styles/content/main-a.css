@@ -1,0 +1,29 @@
+#main-home {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+    margin: auto;
+    height: auto;
+   
+}
+
+#text-a {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    align-items: center;
+    
+}
+#text-a > p{
+    color:#44A1B6;
+}
+
+#home-img {
+    
+    width: 50vw;
+}
+

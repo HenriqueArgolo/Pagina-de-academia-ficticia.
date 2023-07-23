@@ -1,0 +1,61 @@
+/* Já concluido, não alterar */
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    margin-top: 0;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+  }
+  
+  a:hover {
+    background: rgba(0, 0, 0, 0.185);
+    border-radius: 4px;
+  }
+ 
+  
+  #header {
+
+    display: flex;
+    background-color: #333740;
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: right;
+    height: 35vw;  
+    gap: 100px;
+  }
+  
+  
+  #menu {
+    display: flex;
+    list-style: none;
+    gap: 0.5rem;
+    margin-left: 40px;
+    margin-top: 20px;
+    position: fixed;
+    align-items: center;
+  }
+  
+  
+  #menu a {
+    display: block;
+    padding: 0.5rem;
+    margin-right: 30px;
+  }
+  
+  #btn-mobile {
+    display: none;
+  }
+
+  
+  .logo-a{
+width: 80px;
+position: fixed;
+padding: 0;
+margin: 0;
+}
